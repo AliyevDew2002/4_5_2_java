@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_horizontal|center_vertical">
+
+        <TableRow
+            android:layout_width="301dp"
+            android:layout_height="match_parent"
+            android:gravity="center">
+
+            <TextView
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="UserID:"
+                android:textSize="25sp" />
+
+            <EditText
+                android:id="@+id/et_user_id"
+                android:layout_width="301dp"
+                android:layout_height="match_parent"
+                android:hint="ID"
+                android:textSize="25sp" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_marginTop="22dp"
+            android:layout_width="301dp"
+            android:layout_height="match_parent"
+            android:gravity="center">
+
+            <TextView
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="UserPW:"
+                android:textSize="25sp" />
+
+            <EditText
+                android:id="@+id/et_user_pw"
+                android:layout_width="301dp"
+                android:layout_height="match_parent"
+                android:hint="PW"
+                android:textSize="25sp" />
+        </TableRow>
+    </TableLayout>
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_horizontal|center_vertical">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/b_login_id"
+                android:layout_marginLeft="40dp"
+                android:layout_width="346dp"
+                android:layout_height="match_parent"
+                android:layout_marginTop="220dp"
+                android:text="Login"/>
+        </TableRow>
+
+
+    </TableLayout>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
